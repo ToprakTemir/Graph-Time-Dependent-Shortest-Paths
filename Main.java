@@ -11,13 +11,6 @@ public class Main {
     public static HashMap<String, AirportInTime> airportsInTime = new HashMap<>(); // maps "airportName+time" with the AirportInTime object
     public static void main(String[] args) throws IOException {
 
-//        String weatherFileName = "/Users/toprak/JavaProjects/Project4/cases/weather.csv";
-//        String airportFileName = "/Users/toprak/JavaProjects/Project4/cases/airports/EU-1.csv";
-//        String directionsFileName = "/Users/toprak/JavaProjects/Project4/cases/directions/EU-1.csv";
-//        String missionsFileName = "/Users/toprak/JavaProjects/Project4/cases/missions/EU-1.in";
-//        String task1outFileName = "/Users/toprak/JavaProjects/Project4/myTask1.out";
-//        String task2outFileName = "/Users/toprak/JavaProjects/Project4/myTask2.out";
-
         String airportFileName = args[0];
         String directionsFileName = args[1];
         String weatherFileName = args[2];
