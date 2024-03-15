@@ -54,23 +54,19 @@ Time progresses with every flight and park operation.
 
 ## 3. I/O Files & Execution
 
-### 3.1. CSV File Format
-
-A CSV (Comma-Separated Values) file is used for storing and exchanging tabular data.
-
-### 3.2. airports-csv
+### 3.2. airports.csv
 
 Contains essential attributes of the airports.
 
-### 3.3. directions-csv
+### 3.3. directions.csv
 
 Contains the possible directions of flights between airports.
 
-### 3.4. weather-csv
+### 3.4. weather.csv
 
 Contains weather conditions at specific times and airfields.
 
-### 3.5. missions-in
+### 3.5. missions.in
 
 Contains information about missions to be accomplished.
 
